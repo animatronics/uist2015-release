@@ -16,4 +16,4 @@ In the *jacs.player* package the "AnimatronicsShowPlayer.java" is a completely i
 
 ## Running sample programs 
 
-Before launching your program have all peripheral’s inserted into your computer (ie. the Pololu card or a joystick).
+Before launching your program have all peripherals inserted into your computer (ie. the Pololu card or a joystick).
