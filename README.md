@@ -10,7 +10,7 @@ The development environment that we will be using is Eclipse and the programming
 
 Launch the the */doc/index.html* file to see the API documentation directly. 
 
-The *jacs.demos* package provides a suite of test programs that UIST contestants can use to verify their electronic connections, calibrate servo range and learn the animatronics showplayer interface. Running the *PololuSweepTester.java* and *UISTSampleShows.java* files would be a good place to begin. 
+The *jacs.demos* package provides a suite of test programs that UIST contestants can use to verify their electronic connections, calibrate servo range and learn the animatronics showplayer interface. Running the "PololuSweepTester.java" and "UISTSampleShows.java" files would be a good place to begin. 
 
 In the *jacs.player* package the "AnimatronicsShowPlayer.java" is a completely implemented animatronics show player with synchronized audio and servo motions.The *FormattedShowData* class provides details regarding data formats for the audio and servo motions. 
 
