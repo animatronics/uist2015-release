@@ -84,13 +84,13 @@ public class SystemPortsList {
 					&& (microcontrollerName.equals(Microcontroller.POLOLU_MAESTRO) || microcontrollerName
 							.equals(Microcontroller.POLOLU_MICRO_MAESTRO)))
 
-				return microcontrollerPorts[microcontrollerPorts.length - 1];
+				return microcontrollerPorts[microcontrollerPorts.length - 2];
 
 			// Last one in list
 			else if (microcontrollerPorts.length >= 1
 					&& (microcontrollerName.equals(Microcontroller.ARDUINO) || microcontrollerName
 							.equals(Microcontroller.ARDUINO_UNO)))
-				bestGuessPortName = microcontrollerPorts[microcontrollerPorts.length];
+				bestGuessPortName = microcontrollerPorts[0];
 
 			break;
 
